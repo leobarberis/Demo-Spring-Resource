@@ -1,0 +1,30 @@
+@startuml
+
+class Employee
+class Department
+class EmployeeDTO
+
+Employee -> Department
+
+class Employee {
+id
+name
+age
+birthday
+Department department
+}
+
+class Department {
+id
+name
+Employee[] employees
+}
+
+class EmployeeDTO {
+name,
+age,
+birthdayFormatted,
+departmentName
+}
+
+@enduml
