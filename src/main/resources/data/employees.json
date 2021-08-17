@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Clemons",
+    "age": 25,
+    "birthdate": "17/08/1996",
+    "department": {
+      "name": "HR"
+    }
+  },
+  {
+    "name": "Roger",
+    "age": 30,
+    "birthdate": "05/04/1990",
+    "department": {
+      "name": "HR"
+    }
+  }
+]

@@ -7,7 +7,7 @@ import java.time.format.DateTimeFormatter;
 @Mapper(componentModel = "spring")
 public abstract class EmployeeMapper {
     DateTimeFormatter SIMPLE_DATE_FORMAT = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-    EmployeeDTO employeeToEmployeeDTO(Employee employee) {
+    public EmployeeDTO employeeToEmployeeDTO(Employee employee) {
         EmployeeDTO employeeDTO = new EmployeeDTO();
         employeeDTO.setName(employee.getName());
         employeeDTO.setAge(employee.getAge());
